@@ -1,9 +1,7 @@
-# Calculator
-
-## Setup
-
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+## About
+This mod adds a working calculator item into Minecraft.
+All assests used in making of this mod were created by me.
+This is my first attempt of creating a Minecraft mod, so there may be bugs, missing features, or things that could be improved. I am still learning the modding process and using this project as a way to explore Minecraft development and programming.
 
 ## License
-
 This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
