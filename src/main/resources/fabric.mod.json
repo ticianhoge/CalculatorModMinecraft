@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "calculator",
+	"version": "${version}",
+	"name": "Calculator",
+	"description": "This mod adds a working calculator item into Minecraft",
+	"authors": [
+		"ItsTician"
+	],
+	"contact": {
+		"sources": "https://github.com/ticianhoge"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/calculator/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.calculatormod.Calculator"
+		],
+		"fabric-datagen": [
+			"net.calculatormod.CalculatorDataGenerator"
+		],
+		"client": [
+			"net.calculatormod.CalculatorModClient"
+		]
+	},
+	"mixins": [
+		"calculator.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
