@@ -11,11 +11,11 @@
 		"sources": "https://github.com/ticianhoge"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/calculator/icon.png",
+	"icon": "assets/calculatormod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.calculatormod.Calculator"
+          "net.calculatormod.CalculatorMod"
 		],
 		"fabric-datagen": [
 			"net.calculatormod.CalculatorDataGenerator"
