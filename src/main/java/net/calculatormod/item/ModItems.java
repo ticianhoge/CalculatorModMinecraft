@@ -1,7 +1,9 @@
 package net.calculatormod.item;
 
 import net.calculatormod.CalculatorMod;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -32,5 +34,9 @@ public class ModItems {
 
     public static void registerModItems() {
         CalculatorMod.LOGGER.info("Registering Mod Items for " + CalculatorMod.MOD_ID);
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> {
+            entries.add(CALCULATOR);
+        });
     }
 }
