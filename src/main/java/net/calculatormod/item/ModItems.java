@@ -12,7 +12,7 @@ public class ModItems {
 
     public static final Item CALCULATOR = registerItem(
             "calculator",
-            new Item(
+            new CalculatorItem(
                     new Item.Settings().registryKey(
                             RegistryKey.of(
                                     RegistryKeys.ITEM,
